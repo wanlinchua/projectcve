@@ -48,7 +48,10 @@
     </snapshots>
   </repository>
 </repositories>
-
+	
+<activeProfiles>
+    <activeProfile>alfresco-public</activeProfile>
+  </activeProfiles>
 	
   <dependencies>
     <dependency>
