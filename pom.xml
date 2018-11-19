@@ -36,17 +36,6 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>-->
 
-	<repositories>
-  		<repository>
-      <id>alfresco-public</id>
-      <!--<name>Alfresco Repository</name>-->
-      <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-      <!--<snapshots>
-          <enabled>false</enabled>
-      </snapshots>-->
-  </repository>
-</repositories>
-	
 	
   <dependencies>
     <dependency>
@@ -167,4 +156,16 @@
       <version>7.1.1.GA-redhat-2</version>
     </dependency>here-->
    </dependencies>
+	
+		<repositories>
+  		<repository>
+      <id>alfresco-public</id>
+      <!--<name>Alfresco Repository</name>-->
+      <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+      <!--<snapshots>
+          <enabled>false</enabled>
+      </snapshots>-->
+  </repository>
+</repositories>
+	
 </project>
