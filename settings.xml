@@ -59,4 +59,8 @@
       <configuration></configuration>
     </server>
   </servers>
+  
+  <activeProfiles>
+    <activeProfile>alfresco-public</activeProfile>
+  </activeProfiles>
 </settings>
