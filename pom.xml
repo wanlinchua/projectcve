@@ -17,7 +17,7 @@
     <url>https://github.com/wanlinchua/cveone</url>
   </scm>
 
-<build>
+<!--<build>
 	<plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
@@ -29,12 +29,12 @@
             </configuration>
 		</plugin>
 	</plugins>
-	</build>
+	</build>-->
 			
-  <!--<properties>
+  <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
-  </properties>-->
+  </properties>
 
 	
   <dependencies>
@@ -43,12 +43,12 @@
       <artifactId>jre</artifactId>
       <version>1.7.0_67</version>
     </dependency>
-	  <dependency>    
+	  <!--<dependency>    
    <groupId>org.alfresco</groupId>    
    <artifactId>alfresco</artifactId>  
    <version>4.0.d</version>
    <type>war</type> 
-  </dependency>
+  </dependency>-->
     <!--<dependency>
       <groupId>org.restlet.jee</groupId>
       <artifactId>org.restlet</artifactId>
@@ -163,15 +163,6 @@
     </dependency>here-->
    </dependencies>
 	
-		<repositories>
-  		<repository>
-      <id>alfresco-public</id>
-      <!--<name>Alfresco Repository</name>-->
-      <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-      <snapshots>
-          <enabled>true</enabled>
-      </snapshots>
-  </repository>
-</repositories>
+
 	
 </project>
