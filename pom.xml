@@ -39,13 +39,14 @@
 	<repositories>
   		<repository>
       <id>alfresco-public</id>
-      <name>Alfresco Repository</name>
+      <!--<name>Alfresco Repository</name>-->
       <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-      <snapshots>
+      <!--<snapshots>
           <enabled>false</enabled>
-      </snapshots>
+      </snapshots>-->
   </repository>
 </repositories>
+	
 	
   <dependencies>
     <dependency>
