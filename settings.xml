@@ -1,0 +1,31 @@
+<mirrors>
+    <mirror>
+        <id>central</id>
+        <mirrorOf>*</mirrorOf>
+        <url>http://central.maven.org/maven2/</url>
+    </mirror>
+    <mirror>
+        <id>alfresco-public</id>
+        <mirrorOf>artifactory</mirrorOf>
+        <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+    </mirror>
+</mirrors>
+	
+	<profiles>
+    <profile>
+        <id>central</id>
+        <repositories>
+            <repository>
+                <id>central</id>
+                <name>central</name>
+                <url>http://central.maven.org/maven2/</url>
+            </repository>
+
+            <repository>
+                <id>alfresco-public</id>
+                <name>alfresco-public</name>
+                <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+            </repository>
+        </repositories>
+    </profile>
+</profiles>
