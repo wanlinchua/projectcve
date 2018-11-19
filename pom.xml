@@ -32,9 +32,22 @@
 	</build>-->
 			
   <properties>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+	
+<repositories>
+  <repository>
+    <id>alfresco-public</id>
+    <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+</repositories>
 
 	
   <dependencies>
@@ -162,7 +175,5 @@
       <version>7.1.1.GA-redhat-2</version>
     </dependency>here-->
    </dependencies>
-	
 
-	
 </project>
