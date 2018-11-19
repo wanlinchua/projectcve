@@ -1,31 +1,50 @@
-<mirrors>
-    <mirror>
-        <id>central</id>
-        <mirrorOf>*</mirrorOf>
-        <url>http://central.maven.org/maven2/</url>
-    </mirror>
-    <mirror>
-        <id>alfresco-public</id>
-        <mirrorOf>artifactory</mirrorOf>
-        <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-    </mirror>
-</mirrors>
-	
-	<profiles>
-    <profile>
-        <id>central</id>
-        <repositories>
-            <repository>
-                <id>central</id>
-                <name>central</name>
-                <url>http://central.maven.org/maven2/</url>
-            </repository>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
 
-            <repository>
+<mirrors>
+       <mirror>
+        <id>alfresco-public</id>      
+        <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+        <mirrorOf>alfresco-public</mirrorOf>
+       </mirror>
+       <mirror>
+        <id>MavenCentral</id>       
+        <url>https://repo.maven.apache.org/maven2</url>
+        <mirrorOf>central</mirrorOf>
+       </mirror>
+</mirrors>
+
+<profiles>
+    <profile>
+        <id>Project</id>
+        <properties>
+           <framework.version>1.0.9</framework.version>      
+           <maven.test.skip>false</maven.test.skip>
+           <maven.test.failure.ignore>false</maven.test.failure.ignore> 
+           <maven.javadoc.skip>false</maven.javadoc.skip>               
+           <source.jdkversion>1.8</source.jdkversion>
+           <target.jdkversion>1.8</target.jdkversion>
+        </properties>   
+        <repositories>
+           <repository>
                 <id>alfresco-public</id>
                 <name>alfresco-public</name>
                 <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+                <layout>default</layout>
+                <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>never</updatePolicy>
+                </releases>
+                <snapshots>
+                        <enabled>true</enabled>
+                        <updatePolicy>never</updatePolicy>
+                </snapshots>
             </repository>
-        </repositories>
-    </profile>
-</profiles>
+            <repository>
+                <id>MavenCentral</id>
+                <url>https://repo.maven.apache.org/maven2/</url>
+            </repository>
+        </repositories>             
+     </profile>
+ </profiles> 
+</settings>
