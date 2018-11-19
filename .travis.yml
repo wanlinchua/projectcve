@@ -4,13 +4,8 @@ notifications:
   email: false
 
 jdk:
-- oraclejdk8
+
 - oraclejdk7
-- oraclejdk6
-
-
-script: 
-  - ./.travis-build.sh
 
 
 after_success:
