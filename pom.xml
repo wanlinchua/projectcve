@@ -40,9 +40,6 @@
       <id>alfresco</id>
       <name>your custom repo</name>
       <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-	<groupId>com.oracle.java</groupId>
-      <artifactId>jre</artifactId>
-      <version>1.7.0_67</version>
     </repository>
     <!--<repository>
       <id>my-repo2</id>
