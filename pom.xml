@@ -43,6 +43,12 @@
       <artifactId>jre</artifactId>
       <version>1.7.0_67</version>
     </dependency>
+	  <dependency>    
+   <groupId>org.alfresco</groupId>    
+   <artifactId>alfresco</artifactId>  
+   <version>4.0.d</version>
+   <type>war</type> 
+  </dependency>
     <!--<dependency>
       <groupId>org.restlet.jee</groupId>
       <artifactId>org.restlet</artifactId>
@@ -162,9 +168,9 @@
       <id>alfresco-public</id>
       <!--<name>Alfresco Repository</name>-->
       <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-      <!--<snapshots>
-          <enabled>false</enabled>
-      </snapshots>-->
+      <snapshots>
+          <enabled>true</enabled>
+      </snapshots>
   </repository>
 </repositories>
 	
