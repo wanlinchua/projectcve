@@ -54,8 +54,8 @@
   </repository>-->
     </distributionManagement>
 	
-<!--<repositories>
-  <repository>
+<!--<repositories>-->
+ <!-- <repository>
     <id>alfresco-public</id>
     <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
     <releases>
@@ -64,8 +64,8 @@
     <snapshots>
       <enabled>true</enabled>
     </snapshots>
-  </repository>
-  <repository>
+  </repository>-->
+  <!--<repository>
     <id>Spring-Plugin</id>
     <url>http://repo.spring.io/plugins-release/</url>
     <releases>
@@ -74,17 +74,7 @@
     <snapshots>
       <enabled>true</enabled>
     </snapshots>
-  </repository>
-	<repository>
-    <id>Spring-library-Plugin</id>
-    <url>http://repo.spring.io/libs-release/</url>
-    <releases>
-      <enabled>true</enabled>
-    </releases>
-    <snapshots>
-      <enabled>true</enabled>
-    </snapshots>
-  </repository>
+  </repository>-->
 	<!--<repository>
     <id>Spring-library-Plugin</id>
     <url>http://repo.spring.io/libs-release/</url>
@@ -94,7 +84,17 @@
     <snapshots>
       <enabled>true</enabled>
     </snapshots>
-  </repository>-->	
+  </repository> -->
+	<!--<repository>
+    <id>Spring-library-Plugin</id>
+    <url>http://repo.spring.io/libs-release/</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>	-->
 <!--</repositories>-->
 
 	
