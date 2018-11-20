@@ -38,11 +38,11 @@
 
 	
   <dependencies>
-    <dependency>
+    <!--<dependency>
       <groupId>com.oracle.java</groupId>
       <artifactId>jre</artifactId>
       <version>1.7.0_67</version>
-    </dependency>
+    </dependency>here-->
     <!--<dependency>
       <groupId>org.restlet.jee</groupId>
       <artifactId>org.restlet</artifactId>
@@ -69,11 +69,11 @@
       <artifactId>jboss-eap</artifactId>
       <version>6.1.0-8.0.ER8.ep6.el6</version>
     </dependency>here-->
-    <!--<dependency>
+    <dependency>
       <groupId>io.card</groupId>
       <artifactId>android-sdk</artifactId>
       <version>5.1.0</version>
-    </dependency>here-->
+    </dependency>
     <dependency>
       <groupId>org.apache.struts</groupId>
       <artifactId>struts2-core</artifactId>
