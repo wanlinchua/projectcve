@@ -38,11 +38,11 @@
 
 	
   <dependencies>
-    <!--<dependency>
+    <dependency>
       <groupId>com.oracle.java</groupId>
       <artifactId>jre</artifactId>
       <version>1.7.0_67</version>
-    </dependency>-->
+    </dependency>
     <!--<dependency>
       <groupId>org.restlet.jee</groupId>
       <artifactId>org.restlet</artifactId>
@@ -120,7 +120,7 @@
       <version>7.0.29</version>
     </dependency>-->
 	  <!-- error -->
-    <dependency>
+    <!--<dependency>
       <groupId>org.glassfish.packager</groupId>
       <artifactId>glassfish-web</artifactId>
       <version>3.0.1</version>
@@ -129,7 +129,7 @@
       <groupId>org.glassfish.main.web</groupId>
       <artifactId>web-core</artifactId>
       <version>3.1.2</version>
-    </dependency>
+    </dependency>-->
     <!--<dependency>
       <groupId>org.cloudfoundry.identity</groupId>
       <artifactId>cloudfoundry-identity-uaa</artifactId>
