@@ -54,7 +54,7 @@
   </repository>-->
     </distributionManagement>
 	
-<repositories>
+<!--<repositories>
  <!-- <repository>
     <id>alfresco-public</id>
     <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
@@ -95,7 +95,7 @@
       <enabled>true</enabled>
     </snapshots>
   </repository>-->
-</repositories>
+</repositories>-->
 
 	
   <dependencies>
