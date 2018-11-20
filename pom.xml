@@ -54,7 +54,7 @@
       <enabled>true</enabled>
     </snapshots>
   </repository>
-	<repository>
+	<!--<repository>
     <id>Spring-library-Plugin</id>
     <url>http://repo.spring.io/libs-release/</url>
     <releases>
@@ -63,7 +63,7 @@
     <snapshots>
       <enabled>true</enabled>
     </snapshots>
-  </repository>	
+  </repository>-->	
 </repositories>
 
 	
