@@ -120,11 +120,11 @@
       <artifactId>jboss-eap</artifactId>
       <version>6.1.0-8.0.ER8.ep6.el6</version>
     </dependency>error-->
-    <dependency>
+    <!--<dependency>
       <groupId>io.card</groupId>
       <artifactId>android-sdk</artifactId>
       <version>5.1.0</version>
-    </dependency>
+    </dependency>-->
     <!--<dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>multi-module-tests-publisher</artifactId>
@@ -190,6 +190,11 @@
       <artifactId>wildfly-undertow</artifactId>
       <version>7.1.1.GA-redhat-2</version>
     </dependency>error-->
+	  <dependency>
+      <groupId>org.apache.qpid</groupId>
+      <artifactId>qpid-client</artifactId>
+      <version>6.0.3</version>
+    </dependency>
    </dependencies>
 
 </project>
