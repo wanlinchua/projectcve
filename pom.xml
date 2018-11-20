@@ -84,11 +84,6 @@
       <version>1.550</version>
       <scope>provided</scope>
     </dependency>error-->
-    <dependency>
-      <groupId>ca.juliusdavies</groupId>
-      <artifactId>not-yet-commons-ssl</artifactId>
-      <version>0.3.11</version>
-    </dependency>
     <!--<dependency>
       <groupId>org.jboss.jboss-eap6-compose</groupId>
       <artifactId>jboss-eap</artifactId>
